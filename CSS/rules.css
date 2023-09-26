@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(41, 40, 40);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 80%; /* Largura */
+    height: 20vh; /* Altura */
+    margin-left: 10%;
+
+
+    /* ValorEspessura,tipoTraço, CorLinha */
+    border: 2px solid rgba(29, 28, 28, 0.788);
+
+    /* Alinhamento(Interno*/
+    display: flex;
+    justify-content: center;/* Alinhamento Horizontal*/
+    align-items: center;/* Alinhamento Vertical*/
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgb(143, 141, 141);
+}
+
+section{
+    width: 100%;
+    border: 2px black;
+    text-align: center;
+    margin-top: 10px;
+
+}
+section.usar img{
+    margin-top: 15px;
+    border: 5px dashed #fff;
+}
+
+section.usar h2{
+    background-color: blueviolet;
+    margin-bottom: 15px;
+    text-shadow: 3px 1px rgb(66, 66, 66),
+                3.5px 1px 5px #fff
+}
+section.text{
+    background-color:  #fff;
+}
+
+section.color{
+    background-color:  #fff;
+}
+
+section.font{
+    background-color:  rgb(255, 255, 255);
+    font-weight: 300 #fff;
+    border-bottom: 8px solid;
+    line-height: 26px;
+}
+section.font img{
+    margin-top: 5px;
+    border: 15px duble #fff;
+}
+section.font p {
+    text-align: justify;
+}
+span{
+    background-color: #888;
+    color: red;
+    padding: 2px;
+    font-size: 0.8rem;
+}
